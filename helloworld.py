@@ -13,9 +13,13 @@ api = Api(app)
 def index_geek():
     return '<h1>Hello from Index method</h2>'
 
-@app.route('/service')
-def service_geek():
-    return '<h1>Hello from Service method</h2>'
+@app.route('/service1')
+def service1_geek():
+    return '<h1>Hello from Service method - #1</h2>'
+
+@app.route('/service2')
+def service2_geek():
+    return '<h1>Hello from Service method - #2</h2>'
 
 if __name__ == '__main__':
     app.run('0.0.0.0','3333')

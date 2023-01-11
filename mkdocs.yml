@@ -1,5 +1,6 @@
 site_name: My Docs
-site_url: 
+site_url: https://howtosteps.github.io/nginx-docker/site/
 nav:
   - Home: index.md
+  - Copy Nginx Configuration: copy-nginx-conf.md
 theme: readthedocs
