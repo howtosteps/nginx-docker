@@ -1,17 +1,30 @@
-# Welcome to MkDocs
+# Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This simple application demonstrates how to use and deploy Nginx Reverse proxy in a docker container and use it to route traffic to other services internally (another container) and an external service. A reverse proxy server is a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server. 
 
-## Commands
+![Screenshot](img/nginx-docker.png)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+*** Credits : https://linuxhandbook.com/nginx-reverse-proxy-docker/ ***
 
-## Project layout
+## Application components
+This application has essentially 2 services - a web app & a nginx reverse proxy engine, which are both deployed as a container using docker compose. This start-up project demnstrates how to deploy these services as containers and how to configure the nginx reverse proxy
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Application structure
+```
+  |── docs                      # Contains edited nginx configuration file that will be copied to the image
+  |    ├── img                  # Contains all images referenced in mkdocs
+  |    ├── *.md                 # Other mkdocs .md files
+  ├── mkdocs.yml                # YAML for for mkdocs
+  ├── .gitattributes
+  |  
+  ├── default.conf              # Contains edited nginx configuration file that will be copied to the image
+  |
+  ├── Dockerfile                # Dockerfile for the web-app
+  ├── Dockerfile.nginx          # Dockerfile for the nginx reverse-proxy
+  |
+  ├── docker-compose.yaml       # Defines docker-compose.yaml file for web-app & nginx-reverse-proxy
+  |
+  ├── helloworld.py             # Simple hello world python program using Flask API
+  |
+  ├── README.md                 # Standard README.md file
+```

@@ -3,4 +3,8 @@ site_url: https://howtosteps.github.io/nginx-docker/site/
 nav:
   - Home: index.md
   - Copy Nginx Configuration: copy-nginx-conf.md
+  - Create Web app : create-web-app.md
+  - Create Nginx Reverse Proxy : create-nginx-reverse-proxy.md
+  - Define Docker Compose : define-docker-compose.md
+  - Run the app : run-app.md
 theme: readthedocs
