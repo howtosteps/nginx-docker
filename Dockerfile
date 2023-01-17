@@ -7,4 +7,4 @@ RUN pip install flask_restful
 
 #start hello world app
 EXPOSE 3333
-CMD [ "python", "./helloworld.py"]docke
+CMD [ "python", "./helloworld.py"]
