@@ -1,5 +1,6 @@
 # Create Nginx Reverse Proxy server
 This has 2 steps : 
+
 * Update the nginx configuration file `default.conf` with the desired routing of traffic
 * Create a docker container that has this configuration
 
