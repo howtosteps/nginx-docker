@@ -1,5 +1,5 @@
 # Nginx Docker Tutorial
-This is a starter tutorial on how-to use Docker Compose. This example makes use of 2 services - ngix reverse proxy (to front all web-traffic) and a web-app ( written in python)
+This tutorial shows how to use and deploy Nginx Reverse proxy in a docker container. It also demonstrates how nginx-proxy is used to route traffic to other services internally (another container) and an external service.
 
 # How-to Tutorial
- [How-to use Docker Compose](https://howtosteps.github.io/nginx-docker/site/)
+ [How-to use nginx proxy in a Docker container](https://howtosteps.github.io/nginx-docker/site/)
