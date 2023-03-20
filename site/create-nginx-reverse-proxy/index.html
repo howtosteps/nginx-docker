@@ -94,9 +94,11 @@
             <div class="section" itemprop="articleBody">
               
                 <h1 id="create-nginx-reverse-proxy-server">Create Nginx Reverse Proxy server</h1>
-<p>This has 2 steps : 
-* Update the nginx configuration file <code>default.conf</code> with the desired routing of traffic
-* Create a docker container that has this configuration</p>
+<p>This has 2 steps : </p>
+<ul>
+<li>Update the nginx configuration file <code>default.conf</code> with the desired routing of traffic</li>
+<li>Create a docker container that has this configuration</li>
+</ul>
 <h2 id="update-nginx-configuration-file">Update Nginx Configuration file</h2>
 <p>Add the following lines :</p>
 <pre><code>    location /service1 {

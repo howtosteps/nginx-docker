@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://howtosteps.github.io/nginx-docker/site/</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://howtosteps.github.io/nginx-docker/site/copy-nginx-conf/</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://howtosteps.github.io/nginx-docker/site/create-nginx-reverse-proxy/</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://howtosteps.github.io/nginx-docker/site/create-web-app/</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://howtosteps.github.io/nginx-docker/site/define-docker-compose/</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://howtosteps.github.io/nginx-docker/site/run-app/</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-03-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
